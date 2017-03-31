@@ -1,0 +1,56 @@
+safe: true
+source: .
+destination: ./_site
+highlighter: rouge
+markdown: kramdown
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '.sass-cache']
+sass:
+  style: uncompressed
+
+url: https://dagstuhl-hackathon17.github.io
+baseurl: 
+
+deadlines:
+- name: Call
+  date: TBD
+
+# Configuration for site
+title: Dagstuhl IoT Hackathon 2017
+# short_title: Dagstuhl IoT Hackathon 2017
+description: July ?-?, 2017, Dagstuhl, Germany
+author: Dagstuhl IoT Hackathon 2017
+email:
+logo: images/dagstuhl_logo.png
+
+responsive_bp: 768
+
+permalink: /:page.html
+
+navbar_list:
+- name: Home
+  link: /
+# - name: <b>REGISTER NOW</b>
+#   link: https://www.eventbrite.com/e/
+
+# Configuration for asides.html
+asides:
+  github: true
+  # tweets: false
+
+# google_analytics:
+#    account: UA-XXXXX-X
+
+# google_plus_one:
+#   size: medium
+
+# twitter:
+#   username: ?
+#   count: 5
+#   exclude_replies: true
+#   show_screen_name: true
+#   show_follower_count: false
+#   widget_id: ?
+
+github:
+   username: dagstuhl-hackathon17
+   count: 10
