@@ -1,9 +1,18 @@
 ---
 layout: default
-title: Welcome to Dagstuhl IoT Hackathon 2017
+title: Welcome to GI-Dagstuhl IoT Hackathon 2017
 ---
 
-Welcome notes
+# IoT Hackathon: From Research to Practice
+
+The objective of the first GI-Dagstuhl Hackathon is to explore challenging problems in the Internet of Things (IoT) by both design discussions and practical prototyping of technical solutions.
+A special focus will be on potentials of information-centric networking for the IoT.
+
+The hackathon will bring together advanced students and early career researchers with senior scientists from academia and industry.
+The hackathon will consist of some technical background sessions and mostly hands-on hacking.
+
+Plese note that the GI-Dagstuhl Hackathon will take place one week before [IETF 99](https://ietf.org/meeting/99/index.html) in Prague, which will offer a two-day hackathon.
+We highly encourage participants of the GI-Dagstuhl Hackathon to attend the IETF as well, to warm up and experience overall two weeks of protocol engineering and hacking.
 
 ## News
 
@@ -11,4 +20,10 @@ Welcome notes
 
 ## Sponsors
 
-- Dagstuhl
+- [Dagstuhl](https://www.dagstuhl.de/en/)
+- [German Society for Informatics](https://en.gi.de)
+
+## Organizers
+- [Alexander Afanasyev](http://lasr.cs.ucla.edu/afanasyev/index.html) (UCLA, US)
+- [Oliver Hahm](http://lasr.cs.ucla.edu/afanasyev/index.html) (INRIA, FR)
+- [Matthias W&auml;hlisch](http://www.cs.fu-berlin.de/~waehl) (Freie Universit&auml;t Berlin, DE)

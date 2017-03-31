@@ -13,11 +13,15 @@ baseurl:
 deadlines:
 - name: Call
   date: TBD
+- name: Arrival and Basic Setup
+  date: July 23, 2017
+- name: Hackathon
+  date: July 24-28, 2017
 
 # Configuration for site
-title: Dagstuhl IoT Hackathon 2017
+title: GI-Dagstuhl IoT Hackathon 2017
 # short_title: Dagstuhl IoT Hackathon 2017
-description: July ?-?, 2017, Dagstuhl, Germany
+description: July 23-28, 2017, Dagstuhl, Germany
 author: Dagstuhl IoT Hackathon 2017
 email:
 logo: images/dagstuhl_logo.png
@@ -29,6 +33,12 @@ permalink: /:page.html
 navbar_list:
 - name: Home
   link: /
+- name: Background
+  link: background
+- name: Topics
+  link: topics
+- name: Venue
+  link: venue
 # - name: <b>REGISTER NOW</b>
 #   link: https://www.eventbrite.com/e/
 
