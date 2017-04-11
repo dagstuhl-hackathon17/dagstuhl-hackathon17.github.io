@@ -8,6 +8,8 @@ title: Venue---GI-Dagstuhl IoT Hackathon 2017
 The GI-Dagstuhl IoT Hackathon will take place at Schloss Dagstuhl.
 Schloss Dagstuhl was founded in 1990 and quickly became established as one of the world's premier meeting centers for informatics research.
 
+![image-title-here](images/DagstuhlPanorama.jpg){:class="img-responsive" .center-image}
+
 ## Why a hackathon at Dagstuhl?
 
 The hackathon will tackle very challenging research questions.
