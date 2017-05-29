@@ -11,11 +11,15 @@ url: https://dagstuhl-hackathon17.github.io
 baseurl: 
 
 deadlines:
-- name: Call
-  date: TBD
+- name: Application deadline
+  date: June 30, 2017
+- name: Acceptance Notification
+  date: July 2, 2017
+- name: IETF 99
+  date: July 15-21, 2017
 - name: Arrival and Basic Setup
   date: July 23, 2017
-- name: Hackathon
+- name: GI-Dagstuhl Hackathon
   date: July 24-28, 2017
 
 # Configuration for site
