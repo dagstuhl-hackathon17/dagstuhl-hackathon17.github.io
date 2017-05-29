@@ -11,7 +11,7 @@ A special focus will be on potentials of information-centric networking for the 
 The hackathon will bring together advanced students and early career researchers with senior scientists from academia and industry.
 The hackathon will consist of some technical background sessions and mostly hands-on hacking.
 
-Plese note that the GI-Dagstuhl Hackathon will take place one week after [IETF 99](https://ietf.org/meeting/99/index.html) in Prague, which will offer an official [two-day hackathon](https://ietf.org/hackathon/index.html).
+Please note that the GI-Dagstuhl Hackathon will take place one week after [IETF 99](https://ietf.org/meeting/99/index.html) in Prague, which will offer an official [two-day hackathon](https://ietf.org/hackathon/index.html).
 We highly encourage participants of the GI-Dagstuhl Hackathon to attend the IETF as well, to warm up and experience overall two weeks of protocol engineering and hacking.
 
 ## News
