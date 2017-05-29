@@ -43,6 +43,8 @@ navbar_list:
   link: topics
 - name: Venue
   link: venue
+- name: Call for Participation
+  link: call
 # - name: <b>REGISTER NOW</b>
 #   link: https://www.eventbrite.com/e/
 
