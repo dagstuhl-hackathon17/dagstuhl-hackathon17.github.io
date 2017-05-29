@@ -25,5 +25,5 @@ We highly encourage participants of the GI-Dagstuhl Hackathon to attend the IETF
 
 ## Organizers
 - [Alexander Afanasyev](http://lasr.cs.ucla.edu/afanasyev/index.html) (UCLA, US)
-- [Oliver Hahm](http://lasr.cs.ucla.edu/afanasyev/index.html) (INRIA, FR)
+- [Oliver Hahm](https://www.linkedin.com/in/oliver-hahm/) (RIOT, DE)
 - [Matthias W&auml;hlisch](http://www.cs.fu-berlin.de/~waehl) (Freie Universit&auml;t Berlin, DE)
