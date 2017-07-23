@@ -5,7 +5,7 @@ title: Welcome to GI-Dagstuhl IoT Hackathon 2017
 
 # IoT Hackathon: From Research to Practice
 
-The objective of the first GI-Dagstuhl Hackathon is to explore challenging problems in the Internet of Things (IoT) by both design discussions and practical prototyping of technical solutions.
+The objective of the [first GI-Dagstuhl Hackathon](http://www.dagstuhl.de/de/programm/kalender/evhp/?semnr=17303) is to explore challenging problems in the Internet of Things (IoT) by both design discussions and practical prototyping of technical solutions.
 A special focus will be on potentials of information-centric networking for the IoT.
 
 The hackathon will bring together advanced students and early career researchers with senior scientists from academia and industry.
