@@ -39,6 +39,8 @@ navbar_list:
   link: /
 - name: Background
   link: background
+- name: Photos
+  link: photos
 - name: Topics
   link: topics
 - name: Venue

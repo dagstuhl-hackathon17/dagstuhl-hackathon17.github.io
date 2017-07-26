@@ -1,0 +1,190 @@
+---
+layout: nil
+---
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% if page.title and page.title != '' %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+</head>
+<body style="padding:0px; margin:0px; background-color:#fff;font-family:'Open Sans',sans-serif,arial,helvetica,verdana">
+  <header>
+    <hgroup id="site-title">
+      <h1 >
+        <a class="full" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a class="hidden-print short" href="{{ site.baseurl }}/">{{ site.short_title }}</a>
+      </h1>
+      {% if site.description %}
+        <h2 id="site-description">{{ site.description }}</h2>
+      {% endif %}
+    </hgroup>
+  </header>
+
+  <nav id="navbar">
+    {% include navbar.html %}
+  </nav>
+
+
+    <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jssor.slider-25.2.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 5,
+                $Align: 400
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 980);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        .jssora106 {display:block;position:absolute;cursor:pointer;}
+        .jssora106 .c {fill:#fff;opacity:.3;}
+        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
+        .jssora106:hover .c {opacity:.5;}
+        .jssora106:hover .a {opacity:.8;}
+        .jssora106.jssora106dn .c {opacity:.2;}
+        .jssora106.jssora106dn .a {opacity:1;}
+        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
+
+        .jssort051 .p {position:absolute;top:0;left:0;background-color:#000;}
+        .jssort051 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.45;}
+        .jssort051 .p:hover .t{opacity:.8;}
+        .jssort051 .pav .t, .jssort051 .pdn .t, .jssort051 .p:hover.pdn .t{opacity:1;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1152px;height:1325px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('images/ajax-loader.gif') no-repeat 50% 50%;background-color:rgba(0, 0, 0, 0.7);"></div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1152px;height:768px;overflow:hidden;">
+
+            {% for image in site.static_files %}
+                {% if image.path contains 'images/photos' %}
+                  <div>
+                    <img data-u="image" src="{{ site.baseurl }}{{ image.path | remove_first: "/" }}" alt="image" />
+                    <img data-u="thumb" src="{{ site.baseurl }}{{ image.path | remove_first: "/" }}" alt="image" />
+                  </div>
+                {% endif %}
+            {% endfor %}
+            <a data-u="any" href="https://www.jssor.com" style="display:none">bootstrap slider</a>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort051" style="position:absolute;left:0px;bottom:0px;width:1152px;height:918px;" data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="slides">
+                <div data-u="prototype" class="p" style="width:290px;height:200px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:362px;left:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="7930.4,5495.7 5426.1,8000 7930.4,10504.3 "></polyline>
+                <line class="a" x1="10573.9" y1="8000" x2="5426.1" y2="8000"></line>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:362px;right:30px;" data-scale="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="c" cx="8000" cy="8000" r="6260.9"></circle>
+                <polyline class="a" points="8069.6,5495.7 10573.9,8000 8069.6,10504.3 "></polyline>
+                <line class="a" x1="5426.1" y1="8000" x2="10573.9" y2="8000"></line>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
+
+    <div class="exp-bar">
+    Thanks to <a href="https://github.com/PeterKietzmann">Peter Kietzmann</a> for making the photos!
+    </div>
+
+  <hr>
+
+
+  <footer id="footer">
+    <p>Copyright &copy; {{ site.time | date: "%Y" }}, {{ site.author }}</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+  <script>
+   (function(win, doc, script) {
+       var js,
+	   fjs = doc.getElementsByTagName(script)[0],
+	   add = function(url, id) {
+	       if (doc.getElementById(id)) {return;}
+	       js = doc.createElement(script);
+	       js.src = url;
+	       if (id) {js.id = id;}
+	       fjs.parentNode.insertBefore(js, fjs);
+	   };
+{% if site.google_analytics %}
+       // Google Analytics
+       win._gaq=[["_setAccount",'{{ site.google_analytics.account }}'],["_trackPageview"]];
+       add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
+{% endif %}{% if site.google_plus_one %}
+       // Google+ button
+       win.___gcfg={lang:"{{ site.lang }}"};
+       add('https://apis.google.com/js/plusone.js');
+{% endif %}{% if site.facebook.xfbml %}
+       // Facebook SDK
+       add('//connect.facebook.net/' + '{{ site.facebook.locale }}' + '/all.js#xfbml=1', 'facebook-jssdk');
+{% endif %}{% if site.twitter %}
+       // Twitter SDK
+       add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+{% endif %}
+   }(window, document, 'script'));
+
+  {% if site.asides.github and site.github  %}{% include js/github.js  %}{% endif %}
+
+$(function () {
+    $('.carousel').carousel();
+});
+  </script>
+</body>
+</html>
