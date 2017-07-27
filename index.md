@@ -14,9 +14,9 @@ The hackathon will consist of some technical background sessions and mostly hand
 Please note that the GI-Dagstuhl Hackathon will take place one week after [IETF 99](https://ietf.org/meeting/99/index.html) in Prague, which will offer an official [two-day hackathon](https://ietf.org/hackathon/index.html).
 We highly encourage participants of the GI-Dagstuhl Hackathon to attend the IETF as well, to warm up and experience overall two weeks of protocol engineering and hacking.
 
-## News
+### We had a very productive week ... thanks to all!
 
-- March 30, 2017: Website setup
+![image-title-here](images/photo-chapel02.png){:class="img-responsive" .center-block}
 
 ## Sponsors
 
