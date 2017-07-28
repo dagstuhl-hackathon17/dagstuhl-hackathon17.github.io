@@ -39,12 +39,14 @@ navbar_list:
   link: /
 - name: Background
   link: background
-- name: Photos
-  link: photos
 - name: Topics
   link: topics
+- name: Agenda
+  link: agenda
 - name: Venue
   link: venue
+- name: Photos
+  link: photos
 - name: Call for Participation
   link: call
 # - name: <b>REGISTER NOW</b>
