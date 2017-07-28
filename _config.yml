@@ -43,6 +43,8 @@ navbar_list:
   link: topics
 - name: Agenda
   link: agenda
+- name: Attendees
+  link: attendees
 - name: Venue
   link: venue
 - name: Photos
